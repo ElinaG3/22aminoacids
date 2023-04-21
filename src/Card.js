@@ -40,11 +40,11 @@ const Card = ({name,image,symbol,formula,group} )=> {
     return (
 
         <div className='  dib br3
-        pa1 ma2 grow bw2 shadow-5'
+         ma3 pa1 grow bw2 shadow-5'
              style={{ backgroundColor }}>
 
             <img src={`${process.env.PUBLIC_URL}${image}`}
-                 alt='acid' width={200} height={170} className='br3 pa1' />
+                 alt='acid'   />
 
 
             <h2>{name}</h2>
