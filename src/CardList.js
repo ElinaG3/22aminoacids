@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "./Card";
-import {aminoAcids} from './aminoAcids';
+
 const CardList =({aminoAcids})=> {
 
     return (
