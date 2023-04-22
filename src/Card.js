@@ -43,7 +43,7 @@ const Card = ({name,image,symbol,formula,group} )=> {
          ma3 pa1 grow bw2 shadow-5'
              style={{ backgroundColor }}>
 
-            <img src={`${process.env.PUBLIC_URL}${image}`}
+            <img src={image}
                  alt='acid'   />
 
 
